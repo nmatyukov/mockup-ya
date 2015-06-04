@@ -85,13 +85,14 @@ ol {
 }
 
 .ico-service-grey-squre {
-  left: -13px;
-  top: 2px;
-  display: block;
-  position: absolute;
+  left: 0px;
+  top: 4px;
+  display: inline-block;
+  position: relative;
   width: 18px;
   height: 18px;
   background: grey;
+  margin-left: -20px;
 }
 
 li {
