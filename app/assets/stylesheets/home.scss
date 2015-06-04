@@ -2,14 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.adv-grey-square {
+.home-adv-grey-square {
   margin-top: 40px;
   width: 148px;
   height: 90px;
   background: grey;
 }
 
-.yandex-logo-grey-square {
+.home-logo-grey-square {
   width: 178px;
   height: 121px;
   background: grey;
@@ -21,4 +21,12 @@
 
 .search-input-field {
   width: 100%;
+}
+
+.home-news-row {
+  padding-bottom: 30px;
+}
+
+.home-search-row {
+  padding-bottom: 50px;
 }
