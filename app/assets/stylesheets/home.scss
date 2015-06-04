@@ -2,24 +2,44 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import 'share/colors';
+
+li {
+  margin-bottom: 6px;
+}
+
+ol {
+  padding-left: 0;
+}
+
+
+.home-news-datetime {
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+.home-news-header {
+  padding-right: 10px;
+}
+
 .home-adv-grey-square {
   margin-top: 40px;
   width: 148px;
   height: 90px;
-  background: grey;
+  background: $grey;
 }
 
 .home-logo-grey-square {
   max-width: 178px;
   height: 121px;
-  background: grey;
+  background: $grey;
 }
 
-.search-group {
+.home-search-group {
   width: 75%;
 }
 
-.search-input-field {
+.home-search-input-field {
   width: 100%;
 }
 
@@ -31,34 +51,10 @@
   padding-bottom: 50px;
 }
 
-ol {
-  padding-left: 0;
-}
-
-.no-marks-list {
-  padding-left: 0;
-
-  li {
-    list-style: outside none none;
-  }
-}
-
-.left-zero-padding {
-  padding-left: 0px;
-
-  h4, li {
-    padding-left: 16px;
-  }
-
-  li {
-    padding-top: 5px;
-  }
-}
-
 .home-map-grey-square {
   width: 258px;
   height: 57px;
-  background: #d7d7d7;
+  background: $lightGrey;
   padding-left: -10px;
 }
 
@@ -70,33 +66,8 @@ ol {
   }
 }
 
-.ico-weather-grey-square {
-  width: 30px;
-  height: 30px;
-  background: grey;
-  display: inline-block;
-  margin-bottom: -11px;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
 .home-widgets-row {
   padding-bottom: 25px;
-}
-
-.ico-service-grey-squre {
-  left: 0px;
-  top: 4px;
-  display: inline-block;
-  position: relative;
-  width: 18px;
-  height: 18px;
-  background: grey;
-  margin-left: -20px;
-}
-
-li {
-  margin-bottom: 6px;
 }
 
 .home-stock-finance {
@@ -135,18 +106,9 @@ li {
   }
 }
 
-.search-button {
-  padding-left: 18px;
-  padding-right: 18px;
-}
-
 .home-search-example {
   margin-top: 10px;
   width: 85%;
-}
-
-.grey-text {
-  color: #848484;
 }
 
 .home-header-finance {
@@ -156,18 +118,6 @@ li {
     padding-right: 2px;
     padding-left: 2px;
   }
-}
-
-.home-news-datetime {
-  font-size: 13px;
-  margin-left: 15px;
-}
-.home-news-header {
-  padding-right: 10px;
-}
-
-.no-margin {
-  margin: 0;
 }
 
 .home-service-additional-links {

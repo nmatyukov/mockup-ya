@@ -1,0 +1,35 @@
+@import 'colors';
+
+.grey-text {
+  color: $textGrey;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-marks-list {
+  padding-left: 0;
+
+  li {
+    list-style: outside none none;
+  }
+}
+
+.left-zero-padding {
+  padding-left: 0px;
+
+  h4, li {
+    padding-left: 16px;
+  }
+
+  li {
+    padding-top: 5px;
+  }
+}
+
+.search-button {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+

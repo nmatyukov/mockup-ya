@@ -1,0 +1,23 @@
+@import 'colors';
+
+.ico-weather-grey-square {
+  width: 30px;
+  height: 30px;
+  background: $grey;
+  display: inline-block;
+  margin-bottom: -11px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.ico-service-grey-squre {
+  left: 0px;
+  top: 4px;
+  display: inline-block;
+  position: relative;
+  width: 18px;
+  height: 18px;
+  background: $grey;
+  margin-left: -20px;
+}
+

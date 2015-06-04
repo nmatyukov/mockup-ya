@@ -3,14 +3,7 @@
     <h4>
       <%= link_to "Карта Москвы", '#' %>
     </h4>
-    <ul class="no-marks-list home-map-grey-square">
-      <li class="no-margin">
-        <%= link_to "Красивые места на панорамах", '#' %>
-      </li>
-      <li class="no-margin">
-        <%= link_to "Расписания", '#' %>
-      </li>
-    </ul>
+    <%= render 'home/lists/map'%>
   </div>
   <div class="col-xs-4">
     <h4>
@@ -23,94 +16,21 @@
   </div>
   <div class="col-xs-4">
     <h4> <%= link_to "Телепрограмма", '#' %> </h4>
-    <ul class="no-marks-list">
-      <li>09:45 <%= link_to 'Жить здорово!', '#' %> Первый </li>
-      <li>10:45 <%= link_to 'Жить здорово!', '#' %> Первый </li>
-      <li>11:45 <%= link_to 'Жить здорово!', '#' %> Первый </li>
-    </ul>
+    <%= render 'home/lists/tv'%>
   </div>
 </div>
 
 <div class="row">
   <div class="col-xs-4">
-    <ul class="no-marks-list">
-      <li>
-        <span class='ico-service-grey-squre'>
-        </span>
-        <%= link_to 'Маркет', '#' %> — одежда на любой вкус
-      </li>
-      <li>
-        <span class='ico-service-grey-squre'>
-        </span>
-        <%= link_to 'Авто', '#' %> — модели и цены 2014 г.
-      </li>
-      <li>
-        <span class='ico-service-grey-squre'>
-        </span>
-        <%= link_to 'Работа', '#' %> — без опыта
-      </li>
-      <li>
-        <span class='ico-service-grey-squre'>
-        </span>
-        <%= link_to 'Недвижимость', '#' %> — просторная трешка
-      </li>
-      <li class="home-service-additional-links">
-        <span>
-          <%= link_to 'Деньги', '#' %>
-        </span>
-        <span>
-          <%= link_to 'Фотки', '#' %>
-        </span>
-        <span>
-          <%= link_to 'Диск', '#' %>
-        </span>
-      </li>
-    </ul>
+    <%= render 'home/lists/market'%>
   </div>
   <div class="col-xs-4">
     <h4> <%= link_to "Афиша", '#' %> <span>(Москва)</span></h4>
-    <ul class="no-marks-list">
-      <li>
-        <%= link_to 'Шпион', '#' %> премьера
-      </li>
-      <li>
-        <%= link_to 'Астрал', '#' %> премьера
-      </li>
-      <li>
-        <%= link_to 'Земля', '#' %> фантастика
-      </li>
-    </ul>
+    <%= render 'home/lists/afisha'%>
   </div>
   <div class="col-xs-4">
-    <table class='home-stock-finance'>
-      <tbody>
-        <tr class='head'>
-          <td></td>
-          <td>сегодня</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><%= link_to 'USD ЦБ', '#'%> </td>
-          <td>53,0590</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td><%= link_to 'USD ЦБ', '#'%> </td>
-          <td>53,0590</td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
+    <%= render 'home/lists/stock_finance'%>
     <div class='home-stock-spacer'></div>
-    <table class="home-stock-oil">
-      <tbody>
-        <tr>
-          <td><%= link_to 'Нефть', '#'%> </td>
-          <td>04/06</td>
-          <td>-0,28%</td>
-          <td>64,28</td>
-        </tr>
-      </tbody>
-    </table>
+    <%= render 'home/lists/stock_oil'%>
   </div>
 </div>

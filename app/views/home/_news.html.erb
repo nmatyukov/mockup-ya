@@ -12,42 +12,7 @@
       <li> Семь тысяч туристов отменили <%= link_to "поездки в Южную Корею из-за вируса MERS", '#' %> </li>
       <li> Кожин: Китай и Индия интересуются <%= link_to "покупкой новейшей военной техники РФ", '#' %> </li>
     </ol>
-    <p>
-      Биржевые курсы:
-      <span class='home-header-finance'>
-        <span>
-          <%= link_to 'USD', '#'%>
-        </span>
-        <span class="grey-text">
-          +1,52
-        </span>
-        <span>
-          54,30
-        </span>
-      </span>
-      <span class='home-header-finance'>
-        <span>
-          <%= link_to 'EUR', '#'%>
-        </span>
-        <span class="grey-text">
-          +1,52
-        </span>
-        <span>
-          54,30
-        </span>
-      </span>
-      <span class='home-header-finance'>
-        <span>
-          <%= link_to 'Нефть', '#'%>
-        </span>
-        <span class="grey-text">
-          +1,52
-        </span>
-        <span>
-          54,30
-        </span>
-      </span>
-    </p>
+    <%= render 'home/lists/stock_summary'%>
   </div>
 
   <div class="col-xs-6">
