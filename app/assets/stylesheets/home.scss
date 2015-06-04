@@ -118,6 +118,7 @@ li {
   width: 50%;
   background: grey;
   margin: 4px 0;
+  min-width: 180px;
 }
 
 .home-stock-oil {
@@ -132,4 +133,9 @@ li {
   td {
     padding-right: 10px;
   }
+}
+
+.find-button {
+  padding-left: 18px;
+  padding-right: 18px;
 }
