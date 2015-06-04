@@ -16,7 +16,7 @@
 }
 
 .search-group {
-  width: 60%;
+  width: 75%;
 }
 
 .search-input-field {
@@ -60,4 +60,12 @@ ol {
   height: 57px;
   background: #d7d7d7;
   padding-left: -10px;
+}
+
+.home-search-menu {
+  font-size: 1.22em;
+
+  span {
+    margin-right: 13px;
+  }
 }
