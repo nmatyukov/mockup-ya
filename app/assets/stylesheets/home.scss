@@ -45,11 +45,19 @@ ol {
 
 .left-zero-padding {
   padding-left: 0px;
+
+  h4, li {
+    padding-left: 16px;
+  }
+
+  li {
+    padding-top: 5px;
+  }
 }
 
 .home-map-grey-square {
   width: 258px;
   height: 57px;
-  background: grey;
+  background: #d7d7d7;
   padding-left: -10px;
 }
