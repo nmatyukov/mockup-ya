@@ -1,11 +1,23 @@
-<nav class="navbar navbar-default">
-  <div class="container">
+<nav class="navbar">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <%= link_to 'App', root_path, class: 'navbar-brand' %>
+      <span class='navbar-brand'></span>
+    </div>
+    <div class="navbar-header navbar-link">
+      <%= link_to 'Сделать Яндекс стартовой страницей', root_path, class: '' %>
     </div>
     <ul class="nav navbar-nav navbar-right">
       <li>
-        <%= link_to 'Login', root_path %>
+        <%= link_to '10 Гб на Диске', '#', class: 'ya-disk-promo-link'%>
+      </li>
+      <li>
+        <%= link_to 'Головоломка', '#', class: 'btn btn-default login', role: "button" %>
+      </li>
+      <li>
+        <div class='settings-grey-square'></div>
+      </li>
+      <li>
+        <%= link_to 'Войти', root_path, class: 'btn btn-default login', role: "button" %>
       </li>
     </ul>
   </div>
