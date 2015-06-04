@@ -98,3 +98,38 @@ ol {
 li {
   margin-bottom: 6px;
 }
+
+.home-stock-finance {
+  text-align: right;
+
+  .head {
+    font-size: 0.85em;
+    td {
+      padding-bottom: 0.5em;
+    }
+  }
+  td {
+    padding-right: 10px;
+  }
+}
+
+.home-stock-spacer {
+  height: 1px;
+  width: 50%;
+  background: grey;
+  margin: 4px 0;
+}
+
+.home-stock-oil {
+  text-align: right;
+
+  .head {
+    font-size: 0.85em;
+    td {
+      padding-bottom: 0.5em;
+    }
+  }
+  td {
+    padding-right: 10px;
+  }
+}
