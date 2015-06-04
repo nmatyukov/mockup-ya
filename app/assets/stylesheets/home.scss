@@ -10,7 +10,7 @@
 }
 
 .home-logo-grey-square {
-  width: 178px;
+  max-width: 178px;
   height: 121px;
   background: grey;
 }
@@ -147,4 +147,31 @@ li {
 
 .grey-text {
   color: #848484;
+}
+
+.home-header-finance {
+  padding-right: 7px;
+  padding-left: 7px;
+  span {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+}
+
+.home-news-datetime {
+  font-size: 13px;
+  margin-left: 15px;
+}
+.home-news-header {
+  padding-right: 10px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.home-service-additional-links {
+  span {
+    padding-right: 10px;
+  }
 }
