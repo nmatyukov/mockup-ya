@@ -1,11 +1,15 @@
 .footer {
-  // position: absolute;
+  position: absolute;
   bottom: 0px;
   width: 100%;
   min-height: 2.6em;
 
   table {
     width: 100%;
+  }
+
+  span {
+    padding: 0 4px;
   }
 }
 
