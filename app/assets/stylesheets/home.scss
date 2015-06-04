@@ -30,3 +30,11 @@
 .home-search-row {
   padding-bottom: 50px;
 }
+
+.no-marks-list {
+  padding-left: 0;
+
+  li {
+    list-style: outside none none;
+  }
+}
