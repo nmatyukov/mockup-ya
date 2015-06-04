@@ -31,10 +31,25 @@
   padding-bottom: 50px;
 }
 
+ol {
+  padding-left: 0;
+}
+
 .no-marks-list {
   padding-left: 0;
 
   li {
     list-style: outside none none;
   }
+}
+
+.left-zero-padding {
+  padding-left: 0px;
+}
+
+.home-map-grey-square {
+  width: 258px;
+  height: 57px;
+  background: grey;
+  padding-left: -10px;
 }
