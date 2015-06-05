@@ -5,7 +5,7 @@
 @import 'share/colors';
 
 li {
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 ol {
@@ -25,18 +25,24 @@ ol {
 .home-adv-grey-square {
   margin-top: 40px;
   width: 148px;
-  height: 90px;
+  height: 76px;
   background: $grey;
 }
 
 .home-logo-grey-square {
   max-width: 178px;
-  height: 121px;
+  height: 105px;
   background: $grey;
 }
 
+// @media screen and (max-width: 767px) {
 .home-search-group {
-  width: 75%;
+  width: 89%;
+}
+@media (max-width: 992px) {
+  .home-search-group {
+    width: 86%;
+  }
 }
 
 .home-search-input-field {
@@ -48,7 +54,7 @@ ol {
 }
 
 .home-search-row {
-  padding-bottom: 50px;
+  padding-bottom: 35px;
 }
 
 .home-map-grey-square {
@@ -62,7 +68,7 @@ ol {
   font-size: 1.22em;
 
   span {
-    margin-right: 13px;
+    margin-right: 12px;
   }
 }
 
@@ -108,7 +114,7 @@ ol {
 
 .home-search-example {
   margin-top: 10px;
-  width: 85%;
+  width: 100%;
 }
 
 .home-header-finance {
