@@ -35,14 +35,9 @@ ol {
   background: $grey;
 }
 
-// @media screen and (max-width: 767px) {
+// With media (max-width: 992px)
 .home-search-group {
   width: 89%;
-}
-@media (max-width: 992px) {
-  .home-search-group {
-    width: 86%;
-  }
 }
 
 .home-search-input-field {
